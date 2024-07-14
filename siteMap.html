@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title>מפה של האתר</title>
+    <link rel="icon" href="Images/favicon.ico.png" type="image/x-icon">
+
+    <meta name="description" content="מפה לניווט בכל דפי האתר שלנו " />
+    <meta name="keywords" content="מפה,אתר,ניווט,דפים" />
+    <meta name="author" content="רומא למטייל" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+    <!-- Link to Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap" rel="stylesheet">
+
+    <!-- Adobe Fonts Embed Code -->
+    <link rel="stylesheet" href="https://use.typekit.net/jxk7grs.css">
+
+    <!-- JS -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+
+
+</head>
+<body>
+    <header>
+        <nav class="navigationbar">
+            <a href="index.html" class="logo">
+                <img src="Images/rome logo.png" alt="רומא למטייל - המדריך לטיול המושלם ברומא" />
+            </a>
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="dropdown-toggle" href="about.html">
+                        אודות האתר
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="dropdown-toggle" href="#">
+                        פעילויות ברומא
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="Activities.html">אטרקציות מומלצות</a></li>
+                        <li><a href="#">טיולים מומלצים</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="dropdown-toggle" href="#">
+                        אוכלים ברומא
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="Restaurants.html">מסעדות מומלצות</a></li>
+                        <li><a href="#">מסעדות כשרות</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="dropdown-toggle" href="romeMap.html">
+                        מפה של העיר
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <nav class="breadcrumb">
+            <a href="index.html">דף הבית</a>
+            <span> > </span>
+            <a href="siteMap.html">מפה של האתר</a>
+        </nav>
+    </header>
+    <section>
+        <div class="sitemap-page">
+            <h1 class="sitemap-title">מפת האתר</h1>
+            <div class="sitemap-container">
+                <div class="sitemap-section">
+                    <img src="Images/Aboutlogo.png" alt="Logo" class="category-logo">
+                    <ul>
+                        <li><a href="about.html">דף אודות</a></li>
+                    </ul>
+                </div>
+                <div class="sitemap-section">
+                    <img src="Images/ContactUsLogo.png" alt="Logo" class="category-logo">
+                    <ul>
+                        <li><a href="contactUS.html">דף צור קשר</a></li>
+                    </ul>
+                </div>
+                <div class="sitemap-section">
+                    <img src="Images/MapLogo.png" alt="Logo" class="category-logo">
+                    <ul>
+                        <li><a href="romeMap.html">מפה של העיר</a></li>
+                    </ul>
+                </div>
+                <div class="sitemap-section">
+                    <img src="Images/attractionslogo.png" alt="Logo" class="category-logo">
+                    <h2 class="section-title">פעילויות ברומא</h2>
+                    <ul>
+                        <li><a href=Activities.html>אטרקציות מומלצות</a></li>
+                        <li class="notexist"><a href="#">טיולים מומלצים</a></li>
+                    </ul>
+                </div>
+                <div class="sitemap-section">
+                    <img src="Images/Restaurantslogo.png" alt="Logo" class="category-logo">
+                    <h2 class="section-title">אוכלים ברומא</h2>
+                    <ul>
+                        <li><a href="Restaurants.html">מסעדות מומלצות</a></li>
+                        <li class="notexist"><a href="#">מסעדות כשרות</a></li>
+                    </ul>
+                </div>
+                <div class="sitemap-section">
+                    <img src="Images/homelogo.png" alt="Logo" class="category-logo">
+                    <ul>
+                        <li><a href="index.html">דף הבית</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="contactus-footer">
+        <div class="contactus-footer-content">
+            <ul class="contactus-footer-nav">
+                <li><a href="about.html">אודות</a></li>
+                <li><a href="siteMap.html">מפת האתר</a></li>
+                <li><a href="contactUS.html">צור קשר</a></li>
+                <li><a href="index.html">דף הבית</a></li>
+            </ul>
+            <div class="contactus-footer-copyright">
+                <p>&copy; רומא למטייל 2024</p>
+                <p>המדריך המושלם לטיול בעיר העתיקה</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
